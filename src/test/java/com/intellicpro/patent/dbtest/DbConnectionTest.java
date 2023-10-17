@@ -9,7 +9,7 @@ public class DbConnectionTest {
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
     // DB 경로
     private static final String URL = "";
-    private static final String USER = "";
+    private static final String USER = "root";
     private static final String PASSWORD = "";
 
     @Test

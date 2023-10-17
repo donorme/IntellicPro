@@ -6,5 +6,6 @@ spring:
     password: ${PASSWORD}
   jpa:
     hibernate:
-      ddl-auto: create
-
+      ddl-auto: update
+  jwt:
+    secret: ${JWT_SECRET}
